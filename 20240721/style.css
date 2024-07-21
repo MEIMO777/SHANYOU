@@ -8,6 +8,9 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed;
 }
+h1{
+    color:#08949c
+}
 
 /* 自适应字体大小 */
 @media (max-width: 600px) {
