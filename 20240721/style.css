@@ -1,14 +1,37 @@
-/* 这是一个示例 CSS 文件 */
-
-.vertical-text {
-    writing-mode: vertical-rl; /* 设定直式排版 */
-    text-orientation: mixed;  /* 文字方向调整 */
+/* 基本样式 */
+body {
+    font-family: Arial, sans-serif;
 }
 
-.box {
-    background-color: transparent;
-    color: #7F7F7F;
-    padding: 10px;
-    border-radius: 10px;
-    height: 490px;
+/* 直式排版样式 */
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+/* 自适应字体大小 */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .box {
+        font-size: 0.9rem;
+        height: auto;
+        padding: 5px;
+        background-color: #f0f0f0; /* 手机屏幕的背景色 */
+    }
+}
+
+@media (min-width: 601px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .box {
+        font-size: 1rem;
+        height: 490px;
+        padding: 10px;
+        background-color: #e0e0e0; /* 电脑屏幕的背景色 */
+    }
 }
