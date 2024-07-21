@@ -7,9 +7,7 @@ body {
 .vertical-text {
     writing-mode: vertical-rl;
     text-orientation: mixed;
-}
-h1{
-    color:#08949c
+    h1-color:#08949c;
 }
 
 /* 自适应字体大小 */
