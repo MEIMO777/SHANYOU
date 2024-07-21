@@ -12,26 +12,24 @@ body {
 /* 自适应字体大小 */
 @media (max-width: 600px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* 适应手机屏幕的小字体 */
     }
 
     .box {
-        font-size: 0.9rem;
-        height: auto;
-        padding: 5px;
-        background-color: #f0f0f0; /* 手机屏幕的背景色 */
+        font-size: 0.9rem; /* 适应手机屏幕的小字体 */
+        height: auto; /* 适应内容的高度 */
+        padding: 5px; /* 调整内边距 */
     }
 }
 
 @media (min-width: 601px) {
     h1 {
-        font-size: 2rem;
+        font-size: 2rem; /* 较大的字体尺寸，适合较大的屏幕 */
     }
 
     .box {
-        font-size: 1rem;
-        height: 490px;
-        padding: 10px;
-        background-color: #e0e0e0; /* 电脑屏幕的背景色 */
+        font-size: 1rem; /* 默认字体大小 */
+        height: 490px; /* 固定高度 */
+        padding: 10px; /* 默认内边距 */
     }
 }
