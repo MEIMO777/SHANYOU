@@ -1,0 +1,15 @@
+/* 使用 Flexbox 创建响应式布局 */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 100%; /* 使每个项占据 100% 宽度 */
+}
+
+@media (min-width: 600px) {
+  .item {
+    flex: 1 1 50%; /* 在宽屏设备上每个项占据 50% 宽度 */
+  }
+}
