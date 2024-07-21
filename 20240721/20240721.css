@@ -1,7 +1,0 @@
-@media (max-width: 600px) {
-    .vertical-text {
-        writing-mode: horizontal-tb; /* 在小屏幕上改为横向排版 */
-        text-orientation: upright;    /* 文字方向调整 */
-        font-size: 14px;             /* 调整字体大小 */
-    }
-}
