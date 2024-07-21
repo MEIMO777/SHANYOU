@@ -4,4 +4,10 @@
         text-orientation: upright;    /* 文字方向调整 */
         font-size: 14px;             /* 调整字体大小 */
     }
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
 }
