@@ -13,6 +13,7 @@ body {
 @media (max-width: 600px) {
     h1 {
         font-size: 1.5rem; /* 适应手机屏幕的小字体 */
+        color:#08949c
     }
 
     .box {
@@ -25,6 +26,7 @@ body {
 @media (min-width: 601px) {
     h1 {
         font-size: 2rem; /* 较大的字体尺寸，适合较大的屏幕 */
+        color:#08949c
     }
 
     .box {
