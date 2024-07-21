@@ -1,51 +1,50 @@
+```html
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-size: 4vw; /* 自適應字體大小 */
-            line-height: 1.5;
             margin: 0;
             padding: 0;
         }
 
+        .container {
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            padding: 10px;
+            font-size: 4vw;
+            line-height: 1.5;
+            color: #7F7F7F;
+            background-color: transparent;
+            border-radius: 10px;
+            height: auto;
+        }
+
         h1 {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
             color: #08949c;
-            font-size: 6vw; /* 自適應標題大小 */
+            font-size: 6vw;
             margin: 0;
         }
 
-        #doc {
-            background-color: transparent;
-            color: #7F7F7F;
-            padding: 10px;
-            border-radius: 10px;
-            height: auto; /* 自動高度調整 */
-        }
-
         @media (min-width: 768px) {
-            body {
-                font-size: 1rem; /* 桌面設備字體大小 */
+            .container {
+                font-size: 1rem;
             }
 
             h1 {
-                font-size: 2rem; /* 桌面設備標題大小 */
+                font-size: 2rem;
             }
         }
     </style>
 </head>
 <body>
-<div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true">
-    <div style="writing-mode: vertical-rl; text-orientation: mixed;">
-        <h1 id="-〔攸攸行水〕-" data-id="-〔攸攸行水〕-">
-            <div style="writing-mode: vertical-rl; text-orientation: upright;">
-                〔攸攸行水〕
-            </div>
-        </h1>
-    </div>
+<div id="doc" class="container">
+    <h1 id="-〔攸攸行水〕-" data-id="-〔攸攸行水〕-">〔攸攸行水〕</h1>
     <br>
-    <div style="writing-mode: vertical-rl; text-orientation: mixed;background-color:transparent; color: #7F7F7F; padding: 10px; border-radius: 10px;height: 500px;">
+    <div>
         山攸，山攸，山中行水。<br>
         <br>
         雨落成溪；溪滙成河；河奔聚海。<br>
@@ -122,3 +121,4 @@
 </div>
 </body>
 </html>
+```
