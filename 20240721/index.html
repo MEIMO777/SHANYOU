@@ -3,7 +3,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>攸攸行水</title>
     <link rel="stylesheet" href="styles.css"> <!-- 引入外部 CSS 文件 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Example</title>
+    <style>
+        .container {
+            width: 2000px; /* 假設內容寬度超出螢幕 */
+            height: 100vh;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        }
+    </style>
 </head>
+<body>
+    <div class="container"></div>
+
+    <script>
+        window.onload = function() {
+            window.scrollTo({ left: document.body.scrollWidth, behavior: 'smooth' });
+        };
+    </script>
+</body>
 <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true"><br><div style="writing-mode: vertical-rl; text-orientation: mixed;">
     <div style="writing-mode: vertical-rl; text-orientation: mixed;">
 <h1 id="-〔攸攸行水〕-" data-id="-〔攸攸行水〕-"><div style="writing-mode: vertical-rl; text-orientation: upright;">
